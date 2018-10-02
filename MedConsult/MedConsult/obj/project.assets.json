@@ -13265,9 +13265,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Diploma\\MedConsult\\MedConsult\\MedConsult\\MedConsult.csproj",
-      "projectName": "MedConsult",
-      "projectPath": "D:\\Diploma\\MedConsult\\MedConsult\\MedConsult\\MedConsult.csproj",
+      "projectUniqueName": "D:\\Diploma\\MedConsult\\MedConsult\\MedConsult\\MedConsult.Web.csproj",
+      "projectName": "MedConsult.Web",
+      "projectPath": "D:\\Diploma\\MedConsult\\MedConsult\\MedConsult\\MedConsult.Web.csproj",
       "packagesPath": "C:\\Users\\Vitaliy\\.nuget\\packages\\",
       "outputPath": "D:\\Diploma\\MedConsult\\MedConsult\\MedConsult\\obj\\",
       "projectStyle": "PackageReference",

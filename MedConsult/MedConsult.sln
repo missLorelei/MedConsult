@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult", "MedConsult\MedConsult.csproj", "{88152E8C-5826-4331-A56F-485E18951A67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Common", "MedConsult.Common\MedConsult.Common.csproj", "{EBDF66F3-FB90-49D9-817B-8CA940AD40EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Configuration", "MedConsult.Configuration\MedConsult.Configuration.csproj", "{E268C020-FC07-4351-8CB3-A6B4A5432A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Models", "MedConsult.Models\MedConsult.Models.csproj", "{FD29A9C5-6587-4FB0-A700-4878CC81176C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Models.Dto", "MedConsult.Models.Dto\MedConsult.Models.Dto.csproj", "{B50FBA66-9B70-4531-8A3C-8F7E8060B157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Services", "MedConsult.Services\MedConsult.Services.csproj", "{E40989F0-6A02-42CE-A4D7-708B899A6CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Services.Interfaces", "MedConsult.Services.Interfaces\MedConsult.Services.Interfaces.csproj", "{72C032C6-89DF-4985-BA90-05AF11163DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Tools", "MedConsult.Tools\MedConsult.Tools.csproj", "{027D76A6-18BC-418F-A94E-CDD02DC0578B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Web.Common", "MedConsult.Web.Common\MedConsult.Web.Common.csproj", "{C8699593-8B37-4BCC-88DC-533129B388B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Web.Tests", "MedConsult.Web.Tests\MedConsult.Web.Tests.csproj", "{AE692A8C-BE7F-4E11-BB14-9146E599657E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedConsult.Web", "MedConsult.Web\MedConsult.Web.csproj", "{16F0DDF4-A55D-48B3-A220-D1BF32BE88C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +29,46 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88152E8C-5826-4331-A56F-485E18951A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88152E8C-5826-4331-A56F-485E18951A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88152E8C-5826-4331-A56F-485E18951A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88152E8C-5826-4331-A56F-485E18951A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDF66F3-FB90-49D9-817B-8CA940AD40EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDF66F3-FB90-49D9-817B-8CA940AD40EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDF66F3-FB90-49D9-817B-8CA940AD40EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDF66F3-FB90-49D9-817B-8CA940AD40EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E268C020-FC07-4351-8CB3-A6B4A5432A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E268C020-FC07-4351-8CB3-A6B4A5432A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E268C020-FC07-4351-8CB3-A6B4A5432A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E268C020-FC07-4351-8CB3-A6B4A5432A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD29A9C5-6587-4FB0-A700-4878CC81176C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD29A9C5-6587-4FB0-A700-4878CC81176C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD29A9C5-6587-4FB0-A700-4878CC81176C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD29A9C5-6587-4FB0-A700-4878CC81176C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50FBA66-9B70-4531-8A3C-8F7E8060B157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FBA66-9B70-4531-8A3C-8F7E8060B157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50FBA66-9B70-4531-8A3C-8F7E8060B157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50FBA66-9B70-4531-8A3C-8F7E8060B157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40989F0-6A02-42CE-A4D7-708B899A6CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40989F0-6A02-42CE-A4D7-708B899A6CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40989F0-6A02-42CE-A4D7-708B899A6CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40989F0-6A02-42CE-A4D7-708B899A6CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C032C6-89DF-4985-BA90-05AF11163DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C032C6-89DF-4985-BA90-05AF11163DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C032C6-89DF-4985-BA90-05AF11163DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C032C6-89DF-4985-BA90-05AF11163DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027D76A6-18BC-418F-A94E-CDD02DC0578B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027D76A6-18BC-418F-A94E-CDD02DC0578B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027D76A6-18BC-418F-A94E-CDD02DC0578B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027D76A6-18BC-418F-A94E-CDD02DC0578B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8699593-8B37-4BCC-88DC-533129B388B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8699593-8B37-4BCC-88DC-533129B388B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8699593-8B37-4BCC-88DC-533129B388B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8699593-8B37-4BCC-88DC-533129B388B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE692A8C-BE7F-4E11-BB14-9146E599657E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE692A8C-BE7F-4E11-BB14-9146E599657E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE692A8C-BE7F-4E11-BB14-9146E599657E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE692A8C-BE7F-4E11-BB14-9146E599657E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F0DDF4-A55D-48B3-A220-D1BF32BE88C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F0DDF4-A55D-48B3-A220-D1BF32BE88C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F0DDF4-A55D-48B3-A220-D1BF32BE88C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F0DDF4-A55D-48B3-A220-D1BF32BE88C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
